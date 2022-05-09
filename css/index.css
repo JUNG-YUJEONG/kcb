@@ -1,0 +1,282 @@
+@import url(common.css);
+/* @import url(header.css);
+@import url(footer.css); */
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container{
+    width: 1200px;
+    /*height: 1200px; /*헤더(유틸+메뉴+메인비주얼) + 푸터*/
+    margin: 0 auto;
+    /* background: rgba(255,255,255,0.5); */
+    position: relative;
+}
+
+
+header{
+    width: 100%;
+    height: 1590px;
+}
+.top{
+    position: fixed;
+	width:100%;
+    height:120px;
+	background:rgba(0,0,0,0.0);
+    z-index:1000;
+    text-align: center;
+}
+.top .container img{
+    display: inline-block;
+    position: absolute;
+    transform:translateX(-50%);
+    margin: 15px auto;
+}
+.top .container .utill_01{
+    display: inline-block;
+    position: absolute;
+    float: right;
+    right: 120px;
+    margin-top: 20px;
+    color: #cfcbcb;
+    font-size: 12px;
+    font-weight: 300;
+    transition: all 0.5s;
+}
+.top .container .utill_02{
+    display: inline-block;
+    position: absolute;
+    float: right;
+    right: 50px;
+    margin-top: 20px;
+    color: #cfcbcb;
+    font-size: 12px;
+    font-weight: 300;
+    transition: all 0.5s;
+}
+.top .container .utill_01:hover{
+    color: #fff;
+    font-weight: 500;
+}
+.top .container .utill_02:hover{
+    color: #fff;
+    font-weight: 500;
+}
+
+.top .container h4{
+    position:fixed;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+.top .container .topmenu_01{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    left: 170px;
+    margin-top: 100px;
+    transition: all 0.5s;
+}
+.top .container .topmenu_02{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    left: 370px;
+    margin-top: 100px;
+    transition: all 0.5s;
+}
+.top .container .topmenu_03{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    left: 570px;
+    margin-top: 100px;
+    transition: all 0.5s;
+}
+.top .container .topmenu_04{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    left: 770px;
+    margin-top: 100px;
+    transition: all 0.5s;
+}
+.top .container .topmenu_05{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    left: 970px;
+    margin-top: 100px;
+    transition: all 0.5s;
+}
+
+/*스크롤 시 내려오는 고정된 탑메뉴*/
+.nav_fix{
+    width:100%;
+    height:120px;
+    background: #000;
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:1001;
+    /* margin-top:-50px; */
+    transition:all 0.1s ease-in-out;
+}
+.nav_fix h1{margin-top: 5px;}
+.nav_fix_in{
+    width:1200px;
+    margin: 0 auto;
+    /* background: rgba(255,255,255,0.5); */
+}
+.nav_fix_in .topmenu_fix{float:right;}
+.nav_fix_in .topmenu_fix li{
+    float:left;
+    width:120px;
+    height:118px;
+    text-align:center;
+    line-height:120px;
+    transition:all 0.3s;
+    margin-top: -70px;
+} 
+.nav_fix_in .topmenu_fix li:hover{
+    background: rgba(255,255,255,0.2);
+    font-weight:bold;
+}
+.nav_fix_in .topmenu_fix li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-transform:uppercase;
+}
+
+
+/*///// 비주얼 이미지(FullScreen) /////*/
+
+.mainvisual{
+    position:fixed;
+    width:100%;
+    height:1440px;
+    top:0;
+    left:0;
+}
+
+.mainvisual .visual_image li{   /*시작위치의 이미지->크기가 120%*/
+    opacity:0;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:1440px;
+    background:no-repeat fixed center center;
+    background-size:cover;
+    transform:scale(1.2);
+    transition:all 1.5s;
+}
+.mainvisual .visual_image li.imgVisible{   /*->jQuery 에서 불러냄*/
+    opacity:1;
+    transform:scale(1);  /*등장해서 원래 이미지 크기로 돌아옴. 즉 100%로 돌아옴*/
+    transition:all 2s;     
+}
+
+/* 비주얼이미지배경 */
+.mainvisual .visual_image li.main0{background-image:url(../image/bg000.png);}
+/* 기존에 bg00.png에서 ARK로고 위치 문제로 bg000.png로 수정함 220422 */
+.mainvisual .visual_image li.main1{background-image:url(../image/bg01.png);}
+.mainvisual .visual_image li.main2{background-image:url(../image/bg02.png);}
+.mainvisual .visual_image li.main3{background-image:url(../image/bg03.png);}
+.mainvisual .visual_image li.main4{background-image:url(../image/bg04.png);}
+
+
+/*////// 비주얼 텍스트 공통 /////*/
+
+.mainvisual .Vtext{ /*시작위치의 텍스트->Y축으로 20% 지점*/
+    opacity:0;
+    position:absolute;
+    z-index:20;
+    top:20%;
+    width:100%;
+    color:#fff;
+    text-align:center;
+    transform:translateY(20%);  
+    transition:all 1s;
+}
+
+.mainvisual .Vtext.textVisible{ /*->jQuery 에서 불러냄*/
+    opacity:1;
+    transform:translateY(0);
+    transition:all 2s;  /*★*/
+}
+.mainvisual .Vtext h3{
+    margin: 0 auto;
+    font-weight:900;
+    font-size:60px;
+    letter-spacing:2px;
+}
+
+/*버튼*/
+
+.mainvisual .btn{
+    width: 1200px;
+    /* background: rgba(255,255,255,0.5); */
+    position: absolute;
+    top: 10%;
+    left: 21%;
+}
+.mainvisual .btn>span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 3px;
+    background: rgba(255,255,255,0.3);
+    cursor: pointer;
+}
+.mainvisual .btn>span.active{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: rgba(255,255,255,0.9);
+}
+
+
+
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    position: relative;
+}
+.info_01{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    left: 50px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #333;
+}
+.info_01 .bold{
+    font-weight: 400;
+    color: #666
+}
+.info_02{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    left: 50px;
+    margin-top: 90px;
+    padding-bottom: 20px;
+    font-size: 11px;
+    font-weight: 100;
+    color: #333;
+}
+.info_03 img{
+    display: inline-block;
+    position: absolute;
+    float: right;
+    right: 45px;
+    margin: 20px auto;
+}

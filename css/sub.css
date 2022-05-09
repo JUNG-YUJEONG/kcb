@@ -1,0 +1,1589 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+* {font-family: 'Noto Sans KR', sans-serif;}
+header, footer{width: inherit;}
+
+.container{
+    width: 1200px;
+    /*height: 1200px; /*헤더(유틸+메뉴+메인비주얼) + 푸터*/
+    margin: 0 auto;
+    /* background: rgba(255,255,255,0.5); */
+    position: relative;
+}
+
+section{
+    width: 100%;
+    height: 3200px; /*about_top + about*/
+    background-color: #000;
+    padding: 0px;
+    margin: 0px;
+}
+
+.section2{
+    width: 100%;
+    /* height: 5000px;  */
+    /*ㄴ>beer_top + beer*/
+    /* background-color: #fff; */
+    padding: 0px;
+    margin: 0px;
+}
+/*================================================*/
+
+/*~~~about - copy.html~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.about_top{ /*메뉴바 배경,,용*/
+    width: 100%;
+    height: 130px;
+    background: #000;
+}
+
+.about_mp4{ /*동영상 풀스크린 1280×720*/
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+}
+.about_mp4 video{width: 100%;}
+.about_mp4 .about_mp4txt{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+.about_mp4 .about_mp4txt p{
+    margin-top: -24px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 100px;
+}
+.about_mp4 .about_mp4txt p .span_atxt{
+    font-size: 32px;
+    font-weight: 500;
+}
+/*~~~about - copy.html~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.about{
+    width: 100%;
+    height: 2480px;
+    /* background: #000; */
+    background: #000;
+}
+
+.about01_in{
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+}
+.about01_in .a01{
+    width: 1200px;
+    height: 350px;
+    background: url(../image/a01.png) no-repeat;
+    margin-top: 20px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    float: left;
+}
+.about01_in .a01_txt{
+    position: absolute;
+    float: left;
+    top: 40%;
+    left: 33%;
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+}
+/* .about01_in .a01_line{
+    height: 1px;
+    width: 100px;
+    position: absolute;
+    float: right;
+    right: 180px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    background-color: #fff;
+} */
+/*==========================================*/
+
+.about02_in{
+    width: 1200px;
+    height: 300px;
+    /* background: rgba(255,255,255,0.7); */
+    margin: 0 auto;
+    position: relative;
+}
+.about02_in .a02{
+    width: inherit;
+    height: inherit;
+    background: url(../image/a02.png) no-repeat;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    float: left;
+}
+.about02_in .a02_txt{
+    position: absolute;
+    float: left;
+    /* top: 40%; */
+    margin-top: 150px;
+    left: 15%;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 25px;
+}
+.about02_in .a02_txt .span_a02{
+    font-weight: 700;
+}
+.about02_in .a02_line{
+    height: 1px;
+    width: 400px;
+    position: absolute;
+    float: left;
+    left: 430px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+/*==================================================*/
+
+.about03_in{
+    width: 1200px;
+    height: 350px;
+    /* background: rgba(255,255,255,0.7); */
+    margin: 0 auto;
+    position: relative;
+}
+.about03_in .a03{
+    width: inherit;
+    height: inherit;
+    background: url(../image/a03.png) no-repeat;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    float: left;
+    margin-top: 10px;
+}
+.about03_in .a03_txt{
+    position: absolute;
+    float: left;
+    /* top: 40%; */
+    margin-top: 170px;
+    left: 15%;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 25px;
+}
+.about03_in .a03_txt .span_a03{
+    font-weight: 700;
+}
+.about03_in .a03_line{
+    height: 1px;
+    width: 400px;
+    position: absolute;
+    float: left;
+    left: 430px;
+    margin-top: 195px;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+/*=================================================*/
+
+.about04_in{
+    width: 1200px;
+    height: 350px;
+    /* background: rgba(255,255,255,0.7); */
+    margin: 0 auto;
+    position: relative;
+}
+.about04_in .a04{
+    width: inherit;
+    height: inherit;
+    background: url(../image/a04.png) no-repeat;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    float: left;
+    margin-top: 10px;
+}
+.about04_in .a04_txt{
+    position: absolute;
+    float: left;
+    /* top: 40%; */
+    margin-top: 180px;
+    left: 15%;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 25px;
+}
+.about04_in .a04_txt .span_a04{
+    font-weight: 700;
+}
+.about04_in .a04_line{
+    height: 1px;
+    width: 400px;
+    position: absolute;
+    float: left;
+    left: 430px;
+    margin-top: 220px;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+/*=================================================*/
+
+.about05_in{
+    width: 1200px;
+    height: 350px;
+    /* background: rgba(255,255,255,0.7); */
+    margin: 0 auto;
+    position: relative;
+}
+.about05_in .a05{
+    width: inherit;
+    height: inherit;
+    background: url(../image/a05.png) repeat-x;
+    /* background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto; */
+    float: left;
+    margin: 10px 0px 20px 0px;
+}
+.about05_in .a05_txt{
+    position: absolute;
+    float: left;
+    top: 45%;
+    left: 15%;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 25px;
+}
+.about05_in .a05_txt .span_a05{
+    font-weight: 700;
+}
+.about05_in .a05_line{
+    height: 1px;
+    width: 400px;
+    position: absolute;
+    float: left;
+    left: 430px;
+    margin-top: 210px;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+/*=============================================*/
+.about06_in{
+    width: 1200px;
+    height: 350px;
+    /* background: rgba(255,255,255,0.7); */
+    background: #000;
+    margin: 0 auto;
+    position: relative;
+}
+.about06_in .a06_txt{
+    /* position: absolute;
+    float: right; 
+    top: 15%;
+    right: 6%; */
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+/*~~~~타이핑 텍스트 부분 소스 시작~~~~*/
+.typing-txt{display: none;}
+ul{
+    list-style:none;
+    width: 1200px;
+    height: 120px;
+}
+.typing ul li.on{  
+    display: inline-block; 
+    animation-name: cursor; 
+    animation-duration: 0.3s; 
+    animation-iteration-count: infinite; 
+} 
+@keyframes cursor{ 
+0%{border-right: 1px solid #fff} 
+50%{border-right: 1px solid #000} 
+100%{border-right: 1px solid #fff} 
+}
+/*~~~~타이핑 텍스트 부분 소스 끝~~~~~~*/
+
+.about06_in .a06_line{
+    height: 1px;
+    width: 500px;
+    position: absolute;
+    float: left;
+    left: 230px;
+    margin-top: 320px;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+.about06_in .a06{
+    width: 1200px;
+    height: 500px;
+    background: url(../image/a06.png) no-repeat;
+    margin-top: 100px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    float: left;
+}
+.about06_in .a06_subt{
+    position: absolute;
+    float: right;
+    top: 90%;
+    right: 15%;
+    font-size: 32px;
+    font-weight: 300;
+    color: #fff;
+    text-align: right;
+    line-height: 35px;
+}
+.about06_in .a06_subt .span_a06{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+/*====about end==============================================================================================*/
+/*===========================================================================================================*/
+/*===========================================================================================================*/
+
+.beer_top{ /*메뉴바 배경,,용*/
+    width: 100%;
+    height: 130px;
+    background: #fff;
+}
+.beer_mp4{ /*동영상 풀스크린 1280×720*/
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+}
+.beer_mp4 video{width: 100%;}
+.beer_mp4 .beer_mp4txt{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+.beer_mp4 .beer_mp4txt p{
+    margin-top: -24px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 100px;
+}
+.beer_mp4 .beer_mp4txt p .span_btxt{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.beer{ /*콘텐츠 전체 틀*/
+    width: 100%;
+    height: 1600px;
+    background: #fff;
+}
+
+.beer_title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: #333;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.tabmenu{
+    width: 1200px;
+    margin: 0 auto;
+}
+.tabmenu .tab{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 345px;
+    /* background: blue; */
+}
+.tabmenu .tab li{
+    float: left;
+    margin: 0 auto;
+    width: 250px;
+    height: 80px;
+    text-align: center;
+    /* background: green; */
+}
+.tabmenu .tab li a{
+    display: block;
+    line-height: 80px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #999;
+    transition: all 0.2s;
+}
+.tabmenu .tab li a:hover{color: orange;}
+
+/*=======================================================*/
+/*======#tab01  beer01_in + beer02_in====================*/
+.beer01_in{ /*=container  맥주 라인업 첫 번째 줄 틀*/
+    width: 1820px;
+    height: 550px;
+    background: #fff;
+    margin: 0 -300px;
+    position: relative;
+}
+.beer01_in .b01{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b01.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    float: left;
+    transition: all 0.8s;
+}
+.beer01_in .b01:hover{
+    background: url(../image/b01h.png) no-repeat;
+}
+.beer01_in .b01_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 6.5%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer01_in .b01_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 8.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer01_in .b01_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 2.3%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer01_in .b01_subt .span_b01{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer01_in .b02{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b02.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 20%;
+    transition: all 0.8s;
+}
+.beer01_in .b02:hover{
+    background: url(../image/b02h.png) no-repeat;
+}
+.beer01_in .b02_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 25.5%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer01_in .b02_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 28%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer01_in .b02_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 22%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer01_in .b02_subt .span_b02{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer01_in .b03{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b03.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 40%;
+    transition: all 0.8s;
+}
+.beer01_in .b03:hover{
+    background: url(../image/b03h.png) no-repeat;
+}
+.beer01_in .b03_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 47%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer01_in .b03_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 48%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer01_in .b03_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 44%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer01_in .b03_subt .span_b03{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer01_in .b04{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b04.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 60%;
+    transition: all 0.8s;
+}
+.beer01_in .b04:hover{
+    background: url(../image/b04h.png) no-repeat;
+}
+.beer01_in .b04_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 63.5%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer01_in .b04_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 68%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer01_in .b04_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 62%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer01_in .b04_subt .span_b04{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer01_in .b05{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b05.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 80%;
+    transition: all 0.8s;
+}
+.beer01_in .b05:hover{
+    background: url(../image/b05h.png) no-repeat;
+}
+.beer01_in .b05_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 85.2%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer01_in .b05_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 88.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer01_in .b05_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 84%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer01_in .b05_subt .span_b05{
+    font-size: 13px;
+    font-weight: 300;
+}
+/*===beer01_in  첫 번째 줄 end=====================================*/
+
+
+.beer02_in{ /*=container  맥주 라인업  두 번째 줄 틀*/
+    width: 1820px;
+    height: 550px;
+    background: #fff;
+    margin: 0 -300px;
+    position: relative;
+}
+.beer02_in .b06{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b06.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    float: left;
+    transition: all 0.8s;
+}
+.beer02_in .b06:hover{
+    background: url(../image/b06h.png) no-repeat;
+}
+.beer02_in .b06_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 5.8%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer02_in .b06_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 8.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer02_in .b06_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 3.3%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer02_in .b06_subt .span_b06{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer02_in .b07{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b07.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 20%;
+    transition: all 0.8s;
+}
+.beer02_in .b07:hover{
+    background: url(../image/b07h.png) no-repeat;
+}
+.beer02_in .b07_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 24%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer02_in .b07_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 28%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer02_in .b07_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 23%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer02_in .b07_subt .span_b07{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer02_in .b08{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b08.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 40%;
+    transition: all 0.8s;
+}
+.beer02_in .b08:hover{
+    background: url(../image/b08h.png) no-repeat;
+}
+.beer02_in .b08_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 45.7%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer02_in .b08_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 48.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer02_in .b08_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 43%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer02_in .b08_subt .span_b08{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer02_in .b09{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b09.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 60%;
+    transition: all 0.8s;
+}
+.beer02_in .b09:hover{
+    background: url(../image/b09h.png) no-repeat;
+}
+.beer02_in .b09_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 64%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer02_in .b09_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 68.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer02_in .b09_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 64%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer02_in .b09_subt .span_b09{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer02_in .b10{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b10.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 80%;
+    transition: all 0.8s;
+}
+.beer02_in .b10:hover{
+    background: url(../image/b10h.png) no-repeat;
+}
+.beer02_in .b10_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 86.5%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer02_in .b10_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 88.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer02_in .b10_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 82.5%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer02_in .b10_subt .span_b10{
+    font-size: 13px;
+    font-weight: 300;
+}
+/*===beer02_in  두 번째 줄 end=====================================*/
+/*===#tab01   Chapter#1   end==================================*/
+
+
+/*======#tab02  beer03_in + beer04_in====================*/
+.beer03_in{ /*=container  맥주 라인업  세 번째 줄 틀*/
+    width: 1820px;
+    height: 550px;
+    background: #fff;
+    margin: 0 -300px;
+    position: relative;
+}
+.beer03_in .b11{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b11.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    float: left;
+    transition: all 0.8s;
+}
+.beer03_in .b11:hover{
+    background: url(../image/b11h.png) no-repeat;
+}
+.beer03_in .b11_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 5.8%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer03_in .b11_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 8.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer03_in .b11_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 3.3%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer03_in .b11_subt .span_b11{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer03_in .b12{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b12.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 20%;
+    transition: all 0.8s;
+}
+.beer03_in .b12:hover{
+    background: url(../image/b12h.png) no-repeat;
+}
+.beer03_in .b12_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 24.5%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer03_in .b12_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 28.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer03_in .b12_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 22%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer03_in .b12_subt .span_b12{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer03_in .b13{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b13.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 40%;
+    transition: all 0.8s;
+}
+.beer03_in .b13:hover{
+    background: url(../image/b13h.png) no-repeat;
+}
+.beer03_in .b13_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 44.5%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer03_in .b13_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 48.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer03_in .b13_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 41.5%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer03_in .b13_subt .span_b13{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer03_in .b14{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b14.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 60%;
+    transition: all 0.8s;
+}
+.beer03_in .b14:hover{
+    background: url(../image/b14h.png) no-repeat;
+}
+.beer03_in .b14_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 65%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer03_in .b14_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 68.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer03_in .b14_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 63%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer03_in .b14_subt .span_b14{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer03_in .b15{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b15.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 80%;
+    transition: all 0.8s;
+}
+.beer03_in .b15:hover{
+    background: url(../image/b15h.png) no-repeat;
+}
+.beer03_in .b15_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 85.2%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer03_in .b15_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 88.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer03_in .b15_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 83%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer03_in .b15_subt .span_b15{
+    font-size: 13px;
+    font-weight: 300;
+}
+/*===beer03_in  세 번째 줄 end=====================================*/
+
+
+.beer04_in{ /*=container  맥주 라인업  네 번째 줄 틀*/
+    width: 1820px;
+    height: 550px;
+    background: #fff;
+    margin: 0 -300px;
+    position: relative;
+}
+.beer04_in .b16{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b16.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    float: left;
+    transition: all 0.8s;
+}
+.beer04_in .b16:hover{
+    background: url(../image/b16h.png) no-repeat;
+}
+.beer04_in .b16_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 5%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer04_in .b16_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 8.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer04_in .b16_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 3.3%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer04_in .b16_subt .span_b16{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer04_in .b17{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b17.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 20%;
+    transition: all 0.8s;
+}
+.beer04_in .b17:hover{
+    background: url(../image/b17h.png) no-repeat;
+}
+.beer04_in .b17_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 26%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer04_in .b17_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 28.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer04_in .b17_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 22.5%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer04_in .b17_subt .span_b17{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer04_in .b18{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b18.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 40%;
+    transition: all 0.8s;
+}
+.beer04_in .b18:hover{
+    background: url(../image/b18h.png) no-repeat;
+}
+.beer04_in .b18_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 44.5%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer04_in .b18_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 48.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer04_in .b18_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 44%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer04_in .b18_subt .span_b18{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer04_in .b19{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b19.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 60%;
+    transition: all 0.8s;
+}
+.beer04_in .b19:hover{
+    background: url(../image/b19h.png) no-repeat;
+}
+.beer04_in .b19_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 64%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer04_in .b19_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 68.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer04_in .b19_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 63.5%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer04_in .b19_subt .span_b19{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.beer04_in .b20{
+    width: 150px;
+    height: 310px;
+    background: url(../image/b20.png) no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-size: auto;
+    -webkit-background-size: auto;
+	-moz-background-size: auto;
+    position: absolute;
+    float: left;
+    left: 80%;
+    transition: all 0.8s;
+}
+.beer04_in .b20:hover{
+    background: url(../image/b20h.png) no-repeat;
+}
+.beer04_in .b20_txt{
+    position: absolute;
+    float: left;
+    top: 63%;
+    left: 85.2%;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+.beer04_in .b20_line{
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    float: left;
+    left: 88.5%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    background-color: #999;
+}
+.beer04_in .b20_subt{
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 83%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+.beer04_in .b20_subt .span_b20{
+    font-size: 13px;
+    font-weight: 300;
+}
+/*===beer04_in  네 번째 줄 end=====================================*/
+/*===#tab02   Chapter#2   end==================================*/
+
+.beer_end{
+    width: 100%;
+    height: 3px;
+}
+.beer_end .endline{
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    float: left;
+    left: 0;
+    background-color: #999;
+    margin-top: 1220px;
+    margin-bottom: 10px;
+}
+/*====beer end==============================================================================================*/
+/*===========================================================================================================*/
+/*===========================================================================================================*/
+
+
+.brewery_top{ /*메뉴바 배경,,용*/
+    width: 100%;
+    height: 130px;
+    background: #000;
+}
+
+.brewery_mp4{ /*동영상 풀스크린 1280×720*/
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.brewery_mp4 video{width: 100%;}
+.brewery_mp4 .brewery_mp4txt{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+.brewery_mp4 .brewery_mp4txt p{
+    margin-top: -24px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 100px;
+}
+.brewery_mp4 .brewery_mp4txt p .span_brtxt{
+    font-size: 32px;
+    font-weight: 500;
+}
+/*~~~about - copy.html~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.brewery{
+    width: 100%;
+    height: 2480px;
+    /* background: #000; */
+    background: #000;
+}
+
+.brewery01_in{
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+}
